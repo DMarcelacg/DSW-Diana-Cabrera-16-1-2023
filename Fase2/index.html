@@ -37,11 +37,8 @@
     <section id="inicio">
         <h2>¿Que es CSS GRID?</h2>
         <p>
-            CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores 
-            de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes.
-             También se destaca por permitir dividir una página en áreas o regiones principales, 
-             por definir la relación en términos de tamaño, posición y capas entre partes de un control 
-             construido a partir de primitivas HTML.
+            Grid CSS nace de esa necesidad, obteniendo las ventajas de ese sistema grid, añadiéndole numerosas mejoras y características que permiten crear rápidamente cuadrículas flexibles y 
+            potentes de forma prácticamente instantánea con una nueva familia de propiedades CSS.
         </p>
 
         <img src="img/css grid.PNG" alt=" descripción de la imágen">
@@ -51,38 +48,31 @@
     <!-- Esta es la seccion del tema seleccionado -->
     <hr>
     <section>
-        <h2> CSS Grid Layout</h2>
+        <h2> Conceptos</h2>
 
-        <h3>CSS Grid Layout</h3>
+        <h3>conceptos de CSS Grid </h3>
 
         <p>
-            Al igual que las tablas, el grid layout permite a un autor alinear elementos en columnas y filas. 
-            Sin embargo, con CSS grid son posibles muchos más diseños y de forma más sencilla que con las 
-            tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse
-             para que se solapen y se superpongan, de forma similar a los elementos posicionados en CSS.
+            APara crear diseños basados en Grid CSS necesitaremos tener
+             en cuenta una serie de conceptos que utilizaremos a partir de ahora y que definiremos a continuación: 
 
-            
+             Contenedor: El elemento padre contenedor que definirá la cuadrícula o rejilla. 
+             Ítem: Cada uno de los hijos que contiene la cuadrícula (elemento contenedor). 
+             Celda (grid cell): Cada uno de los cuadritos (unidad mínima) de la cuadrícula. 
+             Area (grid area): Región o conjunto de celdas de la cuadrícula. 
+             Banda (grid track): Banda horizontal o vertical de celdas de la cuadrícula. 
+             Línea (grid line): Separador horizontal o vertical de las celdas de la cuadrícula.
+
 
         </p>
 
-        <h4> Fases de un proyecto
-        </h4>
+        <h4> CSS Grid Layout </h4>
 
-        <p>
-            Fase Inicial
-            Fase conceptual: Es la etapa donde nace la idea, se formula el proyecto al analizar los puntos clave, se
-            toma la decisión favorable de iniciar actividades del proyecto, se establecen las metas, se hacen los
-            principales nombramientos y asignaciones de recursos.
+        <p>CSS Grid layout contiene funciones de diseño dirigidas a los desarrolladores de aplicaciones web. El CSS grid se puede utilizar para lograr muchos diseños diferentes. También se destaca por permitir dividir una página en áreas o regiones principales, por definir la relación en términos de tamaño, 
+            posición y capas entre partes de un control construido a partir de primitivas HTML.
 
-            Consumo de Recursos: 5%
-            Producto: Acta de inicio, enunciado del alcance
-
-            Fases Intermedias
-
-            Fase organizacional: Contempla el período de planificar e idear la mejor forma de hacer realidad lo
-            planteado en la fase conceptual. Se diseña la organización y constituye el equipo de proyecto, se buscan los
-            recursos y se hace el plan maestro y detallado de actividades.
-
+            CAl igual que las tablas, el grid layout permite a un autor alinear elementos en columnas y filas. Sin embargo, con CSS grid son posibles muchos más diseños y de forma más sencilla que con las tablas. Por ejemplo, los elementos secundarios de un contenedor de cuadrícula podrían posicionarse para que se 
+            solapen y se superpongan, de forma similar a los elementos posicionados en CSS.
         </p>
 
     </section>
@@ -106,47 +96,7 @@
         <p> Fecha actualización:03 de abril de 2023</p>
         <p> dianamarcelacabreragil@gmail.com</p>
     </footer>
-    <div class="wrapper">
-        <div class="one">One</div>
-        <div class="two">Two</div>
-        <div class="three">Three</div>
-        <div class="four">Four</div>
-        <div class="five">Five</div>
-        <div class="six">Six</div>
-      </div>
-      .wrapper {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
-      }
-      .one {
-        grid-column: 1 / 3;
-        grid-row: 1;
-      }
-      .two {
-        grid-column: 2 / 4;
-        grid-row: 1 / 3;
-      }
-      .three {
-        grid-column: 1;
-        grid-row: 2 / 5;
-      }
-      .four {
-        grid-column: 3;
-        grid-row: 3;
-      }
-      .five {
-        grid-column: 2;
-        grid-row: 4;
-      }
-      .six {
-        grid-column: 3;
-        grid-row: 4;
-      }
-            
-
-
+    
 </body>
 
 </html>
